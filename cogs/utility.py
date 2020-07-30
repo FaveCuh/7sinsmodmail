@@ -1770,8 +1770,6 @@ class Utility(commands.Cog):
                             break
                         await ctx.send(f"```py\n{page}\n```")
 
-def setup(bot): None
- bot.add_cog(Leveling(bot))
 
 def setup(bot):
     bot.add_cog(Utility(bot))
