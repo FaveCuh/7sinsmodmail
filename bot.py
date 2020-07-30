@@ -1,5 +1,10 @@
 __version__ = "3.5.0"
 
+from pkg_resources import parse_version
+from __future__ import annotations
+from discord.ext import commands
+from base.struct import Config
+import json
 
 import asyncio
 import logging
@@ -19,11 +24,7 @@ import isodate
 from aiohttp import ClientSession
 from emoji import UNICODE_EMOJI
 
-from pkg_resources import parse_version
-from __future__ import annotations
-from discord.ext import commands
-from base.struct import Config
-import json
+
 
 try:
     # noinspection PyUnresolvedReferences
