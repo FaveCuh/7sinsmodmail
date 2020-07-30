@@ -5,7 +5,6 @@ __version__ = "3.5.0"
 
 from pkg_resources import parse_version
 from discord.ext import commands
-from base.struct import Config
 import json
 
 import asyncio
