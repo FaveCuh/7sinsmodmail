@@ -3,6 +3,15 @@ import inspect
 import os
 import traceback
 import random
+from __future__ import annotations
+from asyncio import sleep as asyncsleep
+from base.utilities import utilities
+from discord.ext import commands
+from random import randint
+from io import BytesIO
+from discord import File as dFile
+from discord import Member as dMember
+import aiohttp
 from contextlib import redirect_stdout
 from datetime import datetime
 from difflib import get_close_matches
