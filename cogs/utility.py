@@ -1819,8 +1819,8 @@ class Leveling(commands.Cog):
         else:
             await ctx.send(f'{uMember.mention}, you don\'t received xp yet.')
 
-
-
+def setup(bot): None
+ bot.add_cog(Leveling(bot))
 
 def setup(bot):
     bot.add_cog(Utility(bot))
