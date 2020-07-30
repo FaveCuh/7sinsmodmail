@@ -1230,21 +1230,7 @@ class ModmailBot(commands.Bot):
         if not self.guild:
             self.metadata_loop.cancel()
 
-class Bot(commands.Bot):
-    def __init__(self):
-        super().__init__(
-            command_prefix='?',
-            description='Discord bot leveling system example.'
-        )
 
-      
-
-        self.cog_list = ['cogs.leveling']
-        for cog in self.cog_list:
-            try:
-                self.load_extension(cog)
-            except Exception as e:
-                print(f'Error occured while cog "{cog}" was loaded.\n{e}')
 
   
 
