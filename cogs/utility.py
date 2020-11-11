@@ -328,15 +328,15 @@ class Utility(commands.Cog):
 
         embed.add_field(
             name="Want a bot in Your Server?",
-            value="Join the 7 Sins discord [here](https://discord.gg/4dWt34Z) "
-            "and DM @Fave#6464 to make you your own bot. Bots are not free, they will cost money.",
+            value="Join the Variance discord [here](https://discord.gg/variance) "
+            "and DM @Fave#6666 to make you your own bot.",
             inline=False,
         )
 
         embed.add_field(
             name="Support Fave",
-            value="This bot was completely free for 7 Sins. We rely on kind individuals "
-            "like you to support 7 Sins on [`PayPal`](https://paypal.me/swerzyss?locale.x=en_US) (perks included) "
+            value="This bot was completely free for Team Variance. We rely on kind individuals "
+            "like you to support Fave"
             "to keep this bot free forever!",
             inline=False,
         )
